@@ -1,0 +1,7 @@
+interface:
+  display_name: "Oracle Cost Breakdown"
+  short_description: "Monthly OCI cost and usage composition"
+  default_prompt: "Use $oracle-cost-breakdown to aggregate OCI monthly cost and billed quantity composition from Oracle-managed cost-csv reports and write CSV plus a short summary."
+
+policy:
+  allow_implicit_invocation: true

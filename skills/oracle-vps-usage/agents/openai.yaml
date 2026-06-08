@@ -1,0 +1,7 @@
+interface:
+  display_name: "Oracle VPS Usage"
+  short_description: "Monthly OCI VPS traffic from usage-csv"
+  default_prompt: "Use $oracle-vps-usage to aggregate OCI VPS outbound traffic by month from Oracle-managed usage-csv reports and write CSV plus a short summary."
+
+policy:
+  allow_implicit_invocation: true
